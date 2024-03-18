@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top">
+
+        <h1 id="pagetitle">Login/sign-up to Sports</h1>
+        <p id="description">welcome to the place, Where you get the news to all the sports.</p>
+        <form id="survey-form">
+    </div>
+<div class="information">
+    <div class="forname">
+<p class="pname">Name:</p>
+        <input   type="text"  placeholder="Enter your full-name" id="name">
+    </div>
+    <div class="foremail">
+
+   <p class="pemail">Email:</p>
+        <input type="email" placeholder="Enter your email"  id="email">
+        <input type="submit" value="Submit">
+    </div>
+    <div class="forage">
+
+        
+<p class="page">Age:</p>
+        <input type="number" placeholder="age" min="18" max="80" id="age">
+    </div>
+</div>
+ <br>
+ <div class="otherinformation">
+
+     <label for="dropdown">What profession best suits you ?</label>
+     <select name="options" id="dropdown">
+         <option value="option1">Coach</option>
+         <option value="option2">Player</option>
+         <option value="option3">Sports fan</option>
+        </select><br>
+        <div class="recommendation">
+
+            <label for="reccomendation">Would you recommend our page to your friends?</label><br>
+            <input type="radio" id="radio1" name="group1" value="Option 1">
+            <label for="option1">Surely</label><br>
+            
+            <input type="radio" id="radio2" name="group1" value="Option 2">
+            <label for="option2">Surely not</label><br>
+            
+            <input type="radio" id="radio3" name="group1" value="Option 3">
+            <label for="option2">may be</label><br>
+            <input type="radio" id="radio4" name="group1" value="Option 4">
+            <label for="option2">maybe not</label><br>
+            
+        </div>
+        <div class="whichsports">
+
+            <label for="sportoptions">Which sport do you like ?</label><br>
+            <input type="checkbox" id="checkbox1" name="options" value="Option 1">
+            <label for="option1">Football</label><br>
+            
+            <input type="checkbox" id="checkbox2" name="options" value="Option 2">
+            <label for="option2">Basketball</label><br>
+            
+            <input type="checkbox" id="checkbox3" name="options" value="Option 3">
+            <label for="option3">Cricket</label><br>
+            
+            <input type="checkbox" id="checkbox4" name="options" value="Option 4">
+            <label for="option4">Tennis</label><br>
+            
+            <input type="checkbox" id="checkbox5" name="options" value="Option 5">
+            <label for="option5">Baseball</label><br>
+            
+            <input type="checkbox" id="checkbox6" name="options" value="Option 6">
+            <label for="option6">American Football</label><br>
+            
+            <input type="checkbox" id="checkbox7" name="options" value="Option 7">
+            <label for="option1">Other</label><br>
+            
+        </div>
+        <div class="anycomments">
+
+            <label for="comment">Any comments are welcome.
+            </label>
+            <textarea placeholder="leave a comment" value="comment" name="comment" rows="4" cols="50"></textarea>
+            <input type="submit" value="Submit"><br>
+        </div>
+        </div>
+
+         
+        <button type="submit" class="login">Login</button>
+    
+ 
+
+
+    </form>
+</body>
+</html>
